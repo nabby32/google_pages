@@ -1,0 +1,1 @@
+This project will consist of two basic webpage builds in order to practice HTML and CSS. I will first create the Google landing page for searches, and once that is complete, will create a search results page.
