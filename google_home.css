@@ -1,6 +1,6 @@
 html, body {
 	margin: 0px;
-	pardding: 0px;
+	padding: 0px;
 }
 
 a {
@@ -51,7 +51,6 @@ a {
 
 #middle {
 	width: 100%;
-	margin: none;
 }
 
 .middle_holder {
@@ -67,19 +66,19 @@ a {
 }
 
 #middle input {
-	height: 35px;
-	width: 500px;
-	margin: 0 45px 0 45px;
+	height: 40px;
+	width: 550px;
+	margin: 0 25px 0 25px;
 	outline: medium-none;
 	border: none;
-	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
 }
 
 #mid_inside_holder {
 	display: block;
 	margin: 15px auto 10px auto;
 	height: 70px;
-	width: 274px;
+	width: 284px;
 }
 
 .mid_button {
@@ -98,5 +97,55 @@ a {
 	width: 135px;
 }
 
+#footer {
+	position: relative;
+	margin-bottom: 0px;
+	margin-top: 19.4%;
+	padding-bottom: 0px;
+	height: 40px;
+	width: full;
+	background-color: #f2f2f2;
+	border-top: 1px solid ;
+	border-color: #e4e4e4;
+	vertical-align: middle;
+}
+
+#footer p {
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	display: inline-block;
+}
+
+#footer a {
+	color: #666;
+}
+
+#rightlink {
+	height: 30px;
+	width: 210px;
+	display: inline-block;
+	margin: 0px 0px 0px 62%;
+}
+
+#leftlink {
+	height: 30px;
+	width: 235px;
+	display: inline-block;
+	margin: 0px 0px 0px 40px;
+}
+
+#leftlink p {
+	vertical-align: middle;
+	margin-right: 25px;
+}
+
+#rightlink p {
+	vertical-align: middle;
+	margin-right: 25px;
+}
+
+#rightlink:nth-child(3) {
+	margin-right: 0px;
+}
 
 
