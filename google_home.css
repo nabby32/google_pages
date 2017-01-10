@@ -3,11 +3,6 @@ html, body {
 	padding: 0px;
 }
 
-a {
-	text-decoration: none;
-	color: black;
-}
-
 #top {
 	width: 100%;
 	margin: none;
@@ -16,62 +11,65 @@ a {
 }
 
 #apps {
-	height: 25px;
-	width: 25px;
+	height: 23px;
+	width: 23px;
 }
 
 #top_holder {
-	margin-left: 81%;
-	margin-right: none;
+	margin-left: 82.5%;
+	margin-right: 15px;
 	height: 50px;
 	width: 250px;
-	vertical-align: middle;
+	line-height: 60px;
 }
 
 #top_holder * {
 	display: inline-block;
 	vertical-align: middle;
-	margin: 10px 4px 5px 5px;
+	margin: 0 13px 0 0;
 	font-family: arial, sans-serif;
 	font-size: 13px;
+	color: black;
+	opacity: .75;
 	text-decoration: none;
 }
 
 #sign {
 	width: 70px;
 	height: 30px;
-	margin-top: 17px;
 	background-color: #4285f4;
 	color: #fff;
-	border: 1px;
+	border: 0px;
 	border-radius: 2px;
 	font-size: 13px;
 	font-weight: bold;
+	opacity: 1;
 }
 
 #middle {
-	width: 100%;
+width: 100%;
+margin-top: 10.5%;
 }
 
 .middle_holder {
 	height: 300px;
-	width: 600px;
+	width: 610px;
 	margin: 100px auto 100px auto;
 }
 
 #logo {
 	height: 92px;
 	width: 272px;
-	margin: 0 164px 25px 164px;
+	margin: 0 169px 25px 169px;
 }
 
 #middle input {
-	height: 40px;
-	width: 550px;
-	margin: 0 25px 0 25px;
+	height: 44px;
+	width: 584px;
+	margin: 0 12px 2px 14px;
 	outline: medium-none;
 	border: none;
-	box-shadow: 0 2px 3px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2),0 0 0 1px rgba(0,0,0,0.08);
 }
 
 #mid_inside_holder {
@@ -82,10 +80,11 @@ a {
 }
 
 .mid_button {
-	width: 125px;
+	width: 130px;
 	height: 35px;
-	margin: 15px 5px 5px auto;
+	margin: 17px 5px 5px auto;
 	border: 1px;
+	border-radius: 1px;
 	background-color: #f2f2f2;
 	font-family: arial, sans-serif;
 	font-size: 13px;
@@ -94,13 +93,13 @@ a {
 }
 
 #lucky {
-	width: 135px;
+	width: 140px;
 }
 
 #footer {
 	position: relative;
 	margin-bottom: 0px;
-	margin-top: 19.4%;
+	margin-top: 15.9%;
 	padding-bottom: 0px;
 	height: 40px;
 	width: full;
@@ -118,25 +117,26 @@ a {
 
 #footer a {
 	color: #666;
+	text-decoration: none;
 }
 
 #rightlink {
-	height: 30px;
+	height: 40px;
 	width: 210px;
 	display: inline-block;
-	margin: 0px 0px 0px 62%;
+	margin: 0px 0px 0px 65.5%;
 }
 
 #leftlink {
-	height: 30px;
-	width: 235px;
+	height: 40px;
+	width: 245px;
 	display: inline-block;
-	margin: 0px 0px 0px 40px;
+	margin: 0px 0px 0px 30px;
 }
 
 #leftlink p {
 	vertical-align: middle;
-	margin-right: 25px;
+	margin-right: 27px;
 }
 
 #rightlink p {
