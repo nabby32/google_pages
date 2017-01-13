@@ -1,20 +1,18 @@
 html, body {
 	border: 0;
 	margin: 0;
-	background-color: green;
 }
 
 #toptop {
-	height: 60px;
+	height: 80px;
 	width: full;
 	background-color: #fafafa;
 }
 
 #toptopleft {
-	height: 60px;
+	height: 80px;
 	width: 850px;
-	background-color: red;
-	line-height: 72px;
+	line-height: 80px;
 	display: inline-block;
 }
 
@@ -24,43 +22,58 @@ html, body {
 }
 
 #toptopleft img {
-	height: 44px;
-	width: 140px;
+	height: 40px;
+	width: 120px;
+	margin: 0 10px 0 15px;
 	display: inline-block;
 }
 
 #search_bar {
-	height: 44px;
-	width: 572px;
-	background-color: yellow;
+	height: 45px;
+	width: 630px;
+	background-color: #ffffff;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 44px;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
 }
 
 #search_bar input {
-	height: 44px;
-	width: 572px;
-	margin: 0 15px 2px 17px;
-	border: none;
-	outline: medium-none;
+	height: 40px;
+	width: 560px;
 	padding: 0 0 0 20px;
+	border: none;
 	font-size: 15px;
-	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
 }
 
 #search {
 	height: 44px;
 	width: 44px;
+	display: inline-block;
+	margin: 0px;
+	background-color: #ffffff;
+	box-shadow: none;
+	border: none;
 }
 
-#magnify {
-	height: 30px;
-	width: 30px;
+#search img {
+	height: 25px;
+	width: 25px;
+	position: relative;
+	left: -15px;
 }
 
 #toptopright {
-	height: 60px;
+	height: 80px;
 	width: 170px;
-	background-color: blue;
 	display: inline-block;
+	line-height: 80px;
+	margin-left: 28.88%;
+}
+
+#toptopright * {
+	display: inline;
+	vertical-align: middle;
 }
 
 #toptopright img {
@@ -68,4 +81,51 @@ html, body {
 	width: 23px;
 }
 
+#apps {
+	height: 23px;
+	width: 23px;
+	vertical-align: middle;
+	margin: 5px 10px 0 30px;
+}
 
+#sign {
+	width: 70px;
+	height: 30px;
+	margin: 5px 10px 0 5px;
+	background-color: #4285f4;
+	color: #fff;
+	border: 0px;
+	border-radius: 2px;
+	font-size: 13px;
+	font-weight: bold;
+	opacity: 1;
+	vertical-align: middle;
+}
+
+#topbottom {
+	height: 60px;
+	width: full;
+	background-color: #fafafa;
+	border-bottom: 1px solid;
+	border-color: #eeeeee;
+	margin: 0;
+	position: relative;
+	top: -16px;
+}
+
+#searchtype {
+	width: 400px;
+	line-height: 70px;
+	position: relative;
+	left: 147px;
+	padding-left: 10px;
+}
+
+#searchtype p {
+	display: inline;
+	vertical-align: middle;
+	font-family: arial, sans-serif;
+	font-size: 14px;
+	margin: 0 12px 0 12px;
+	color: #777;
+}
