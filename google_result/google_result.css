@@ -1,6 +1,10 @@
-html, body {
+html {
 	border: 0;
-	margin: 0;
+	position: relative;
+}
+
+body {
+	margin: 0 0 76px 0;
 }
 
 #toptop {
@@ -10,7 +14,7 @@ html, body {
 
 #toptopleft {
 	height: 80px;
-	width: 850px;
+	width: 830px;
 	line-height: 80px;
 	display: inline-block;
 }
@@ -64,10 +68,10 @@ html, body {
 
 #toptopright {
 	height: 80px;
-	width: 170px;
+	width: 160px;
 	display: inline-block;
 	line-height: 80px;
-	margin-left: 28.88%;
+	margin-left: 30%;
 }
 
 #toptopright * {
@@ -112,7 +116,7 @@ html, body {
 }
 
 #searchtype {
-	width: 400px;
+	width: 450px;
 	line-height: 70px;
 	position: relative;
 	left: 147px;
@@ -123,14 +127,13 @@ html, body {
 	display: inline;
 	vertical-align: middle;
 	font-family: arial, sans-serif;
-	font-size: 14px;
-	margin: 0 12px 0 12px;
+	font-size: small;
+	margin: 0 14px 0 14px;
 	color: #777;
 }
 
 #center {
-	background-color: green;
-	height: full;
+	height: 100%;
 }
 
 #resultnos {
@@ -143,7 +146,7 @@ html, body {
 }
 
 #resultsholder {
-	width: 600;
+	width: 600px;
 	height: 1030px;
 	position: relative;
 	left: 170px;
@@ -182,7 +185,7 @@ html, body {
 
 .content {
 	color: #545454;
-	font-size: small;
+	font-size: 13px;
 	line-height: 18px;
 	font-family: arial, sans-serif;
 }
@@ -196,9 +199,92 @@ html, body {
 
 #infoholder {
 	width: 454px;
-	height: 530px;
+	height: 540px;
 	background-color: #ffffff;
 	display: inline-block;
 	position: relative;
 	left: 220px;
+	top: -10px;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
+}
+
+#infopictures {
+		height: 200px;
+}
+
+#smallerpics {
+	display: inline-block;
+	height: 186px;
+	width: 290px;
+	vertical-align: top;
+}
+
+#smallerpics img {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 -2px;
+}
+
+
+#titleinfo {
+	height: 55px;
+	border-bottom: 1px solid #eeeeee;
+	padding: 0 0 15px 0;
+}
+
+#titleinfo p {
+	margin: 3px 2px 5px 10px;
+}
+
+#titleinfo > :nth-child(1) {
+	font-family: arial, sans-serif;
+	font-size: 30px;
+	color: black;
+}
+
+#titleinfo > :nth-child(2) {
+	font-family: arial, sans-serif;
+	font-size: small;
+	color: #777;
+}
+
+#specs {
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	padding: 0 12px 0 10px;
+}
+
+#specs a {
+	text-decoration: none;
+}
+
+#specs > p:nth-child(1) {
+	margin: 10px 0 15px 0;
+}
+
+#specs > :nth-child(n+1) {
+	margin: 7px 0 7px 0;
+}
+
+#footer {
+	position: absolute;
+	height: 75px;
+	width: 100%;
+	bottom: 0px;
+	left: 0px;
+	background-color: blue;
+	background-color: #f2f2f2;
+	border-top: 1px solid ;
+	border-color: #e4e4e4;
+	vertical-align: middle;
+}
+
+.bottomline {
+	display: inline;
+}
+
+.bottomlinks {
+	font-family: arial, sans-serif;
+	font-size: small;
+	color: #777;
 }
