@@ -117,19 +117,34 @@ body {
 
 #searchtype {
 	width: 450px;
-	line-height: 70px;
+	height: 60px;
 	position: relative;
 	left: 147px;
 	padding-left: 10px;
 }
 
 #searchtype p {
-	display: inline;
+	display: inline-block;
+	height:43px;
+	line-height: 40px;
 	vertical-align: middle;
 	font-family: arial, sans-serif;
 	font-size: small;
-	margin: 0 14px 0 14px;
+	padding: 0 14px 0 14px;
 	color: #777;
+}
+
+#searchtype p:hover {
+	color: black;
+}
+
+#searchtype p:active {
+	font-weight: 900;
+	border-bottom: 4px solid;
+	border-color: #4285f4;
+	padding-bottom: -3px;
+	color: #4285f4;
+	
 }
 
 #center {
@@ -222,7 +237,7 @@ body {
 #smallerpics img {
 	display: inline-block;
 	vertical-align: middle;
-	margin: 0 -2px;
+	margin: 0 -4px;
 }
 
 
@@ -266,6 +281,15 @@ body {
 	margin: 7px 0 7px 0;
 }
 
+#pages {
+	display: block;
+	height: 82px;
+	width: 317px;
+	position: relative;
+	left: 315px;
+	bottom: 20px;
+}
+
 #footer {
 	position: absolute;
 	height: 84px;
@@ -279,9 +303,13 @@ body {
 	vertical-align: middle;
 }
 
+#topline {
+	margin: 22px 0 0 0;
+}
+
 .bottomline {
 	display: inline-block;
-	margin: 12px 24px 5px 0;
+	margin: 17px 24px 5px 0;
 }
 
 .bottomlinks {
@@ -292,3 +320,8 @@ body {
 	position: relative;
 	left: 170px;
 }
+
+.bottomlinks a {
+	text-decoration: none;
+}
+
